@@ -1,0 +1,23 @@
+challenge 1:
+
+		algorithme:table de multiplication
+
+	-variables: 
+			entier   N  ,  i(1 jusqu a 10) , R
+
+	-debut: 
+			Ecrire ("Entree un nombre")
+			
+			lire(N)
+
+			pour (N>1 et N<10)
+
+			Ecrire ("N x i =")
+
+			lire (R) 
+
+			finPour
+
+	-fin
+
+			
