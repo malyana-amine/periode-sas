@@ -1,27 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-int main()
+int main ()
 {
-    int n, S=0, M=0,i ;
-    int x;
+int s=0 , m = 0 , n =1;
 
-    printf("how many number do you want:");
-    scanf("%d",&x);
+while (n>0 && n<100){
+	 printf ("entrez un nombre :");
+     scanf("%d",&n);
 
-      for (i=1;i<=x;i++){
+     if (n==0){break;}
+     if (n>100){continue;}
 
-        printf("entre le nomber:\n");
-        scanf("%d",&n);
-      if (n%10==0 && n<100){
-        S=S+n;
-      if (M < n)M=n;
-      }
-      }
-      printf ("la somme est :%d\n",S);
-      printf ("le max est :%d",M);
+     s = s + n;
+     if(m<n){
+     	m = n;
+	 }
+}
+
+  printf(" la somme est : %d \n", s);
+  printf("le max est : %d", m);
 
 
-
-    return 0;
+return 0;
 }
